@@ -218,6 +218,9 @@ footer a{
   section {
     padding: 6em 1em;
   }
+  .btn-group{
+    flex-direction: row;
+  }
   .about-us{
     flex-direction: row;
   }
