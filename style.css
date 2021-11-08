@@ -221,6 +221,9 @@ footer a{
   .btn-group{
     flex-direction: row;
   }
+  .btn + .btn {
+    margin-left: 1em;
+  }
   .about-us{
     flex-direction: row;
   }
