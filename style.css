@@ -218,11 +218,12 @@ footer a{
   section {
     padding: 6em 1em;
   }
-  .btn-group{
+  .btn-group {
+    margin-top: 1em;
     flex-direction: row;
   }
   .btn + .btn {
-    margin-left: 1em;
+    margin-left: 0.5rem;
   }
   .about-us{
     flex-direction: row;
@@ -250,10 +251,21 @@ footer a{
     margin-right: auto;
   }
   .order-online > *{
-    max-width: 55ch;
-    margin: 0 auto;
+    max-width: 65ch;
+    margin-left: auto;
+    margin-right: auto;
   }
   .order-online {
     display: grid;
+  }
+  .products {
+    flex-direction: row;
+    max-width: 60em;
+  }
+  .probtn{
+    margin-top: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
